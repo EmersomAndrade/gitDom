@@ -22,10 +22,13 @@
 
         const descelecionar = seletor => document.querySelectorAll(seletor).forEach(e => e.classList.remove('destaque'));
         descelecionar('div');
-
+        //selecionando elemento através de uma tag.
         selecionar('div');
+        //selecionando elemento através de um id.
         descelecionar('#primeiro');
+        //selecionando todos os elementos da página.
         descelecionar('*');
+        //selecionando elemento através de um atributo.
         selecionar('[wb-attrib]');
     </script>
 </body>
